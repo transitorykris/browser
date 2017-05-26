@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(assets/fonts/Quicksand/Quicksand-Light.ttf);
+    font-weight: light;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(assets/fonts/Quicksand/Quicksand-Medium.ttf);
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(assets/fonts/Quicksand/Quicksand-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(assets/fonts/Quicksand/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url(assets/fonts/RobotoMono/RobotoMono-Light.ttf);
+    font-weight: light;
+}
