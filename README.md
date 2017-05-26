@@ -6,6 +6,8 @@ This is functional but still has some rough edges and missing features.
 
 Pull requests happily accepted.
 
+![Screenshot](https://s3-us-west-2.amazonaws.com/jn.gl/images/browser.png)
+
 ## Download
 
 Pre-compiled disk images for macOS are available at
