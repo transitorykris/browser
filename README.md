@@ -1,6 +1,6 @@
 # Jn.gl Browser
 
-This is the Jn.gl Browser. It is a native Upspin browser built on Electron and React.
+This is the Jn.gl Browser. It is a native [Upspin](https://upspin.io) browser built on Electron and React.
 
 This is functional but still has some rough edges and missing features.
 
