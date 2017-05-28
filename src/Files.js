@@ -22,6 +22,7 @@ const electron = window.require('electron')
 const execFile = electron.remote.require('child_process').execFile
 const shell = electron.remote.shell
 const app = electron.remote.app
+const clipboard = electron.remote.clipboard
 const path = electron.remote.require('path')
 const url = electron.remote.require('url')
 
@@ -421,6 +422,10 @@ class File extends Component {
     })
   }
 
+  handleCopyLink = () => {
+    clipboard.writeText('upspin://'+this.props.file.Name)
+  }
+
   handleDelete = () => {
     console.log("Deleting files not implemented")
   }
@@ -444,6 +449,12 @@ class File extends Component {
           leftIcon={<DownloadIcon />}
           primaryText="Download"
           onClick={this.handleDownload}
+        />,
+        <ListItem key={'copylink'}
+          style={style.FileAction}
+          leftIcon={<OpenIcon />}
+          primaryText="Copy link to clipboard"
+          onClick={this.handleCopyLink}
         />,
         // <ListItem key={'delete'} leftIcon={<DeleteIcon />} primaryText="Delete" onClick={this.handleDelete} />,
       ]
