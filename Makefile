@@ -25,6 +25,7 @@ run:
 
 deps:
 	npm install
+	cd jnglctl && go get
 
 sign:
 	codesign --deep --force --verbose --sign "Developer ID Application: Ahead by a Century, LLC (7UXE8T6JQ7)" dist/macos/JnglBrowser-darwin-x64/JnglBrowser.app

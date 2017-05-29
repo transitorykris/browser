@@ -20,6 +20,11 @@ Pre-compiled disk images for macOS are available at
 
 ### Install dependencies
 
+This assumes you have:
+
+* Golang 1.8+
+* npm
+
 ```
 make deps
 ```
